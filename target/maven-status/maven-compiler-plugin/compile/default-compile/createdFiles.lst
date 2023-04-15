@@ -1,0 +1,4 @@
+commons\BasePage.class
+commons\GlobalConstants.class
+commons\BaseTest.class
+commons\PageFactoryManger.class
