@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,298] 1.Hover on marketplace tab
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,299] 2.Click on Carbon credits button > verify title and picture cover
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 3.Click button [BUY] > verify title
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 4.Click on button [Continue] > verify title
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 5.Click on [Agree and Continue] button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 6.Click on [Bank Transfer] button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 7.Input into all textbox input
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 8.Click on [Pay] button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 9. Click on [Next] button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 10. Click on [See transaction on Etherscan] button > check link redirected
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-15T14:52:22Z" name="arvatech" finished-at="2023-04-15T14:52:29Z" duration-ms="7021">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T14:52:22Z" name="run on firefox" finished-at="2023-04-15T14:52:29Z" duration-ms="7021">
+      <class name="demo.HomeScreen">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:demo.HomeScreen@63716833]" started-at="2023-04-15T14:52:22Z" name="beforeClass" finished-at="2023-04-15T14:52:29Z" duration-ms="6819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01()[pri:0, instance:demo.HomeScreen@63716833]" started-at="2023-04-15T14:52:29Z" name="TC_01" finished-at="2023-04-15T14:52:29Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,298] 1.Hover on marketplace tab
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,299] 2.Click on Carbon credits button > verify title and picture cover
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 3.Click button [BUY] > verify title
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 4.Click on button [Continue] > verify title
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 5.Click on [Agree and Continue] button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 6.Click on [Bank Transfer] button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 7.Input into all textbox input
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 8.Click on [Pay] button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 9. Click on [Next] button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-15 21:52:29,300] 10. Click on [See transaction on Etherscan] button > check link redirected
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+      </class> <!-- demo.HomeScreen -->
+    </test> <!-- run on firefox -->
+  </suite> <!-- arvatech -->
+</testng-results>

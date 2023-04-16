@@ -2,6 +2,9 @@ package commons;
 
 import java.time.Duration;
 import java.util.Random;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -9,10 +12,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest {
 protected WebDriver driver;
+protected final Log log;
+protected BaseTest(){
+    log = LogFactory.getLog(getClass());
+}
+
 
 String projectPath = System.getProperty("user.dir");
 
 protected WebDriver getBrowserDriver(String browserName){
+
     switch (browserName){
         case"firefox":
         System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");

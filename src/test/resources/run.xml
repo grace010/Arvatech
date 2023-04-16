@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce">
+<suite name="arvatech">
 
 	<listeners>
-		<listener class-name="commons.MethodListener" />
+	<!--	<listener class-name="commons.MethodListener" />-->
 	<!--<listener class-name="reportConfig.ReportNGListener" />-->
-	<listener class-name="reportConfig.ExtentTestListener" />
+	<!--<listener class-name="reportConfig.ExtentTestListener" />-->
 	<!--<listener class-name="reportConfig.AllureTestListener" />-->
 	<listener class-name="org.uncommons.reportng.HTMLReporter" />
 	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
-	<parameter name="url" value="https://demo.nopcommerce.com/" />
+	<parameter name="url" value="https://arvatech.sotatek.works/" />
 	<!--<parameter name="browser" value="firefox" />-->
 	<test name="run on firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<!--<class name="com.nopcommerce.common.Common_Register_Cookie" />-->
-			<class name="" />
+			<!--<class name="demo.HomeScreen" />-->
+			<class name="demo.HomeScreen" />
 		</classes>
 	</test> <!-- Test -->
 

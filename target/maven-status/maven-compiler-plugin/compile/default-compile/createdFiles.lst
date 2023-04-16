@@ -1,4 +1,15 @@
-commons\BasePage.class
 commons\GlobalConstants.class
-commons\BaseTest.class
+pageObjects\AssetTokenGidView.class
+pageObjects\CarbonCreditDetail.class
 commons\PageFactoryManger.class
+pageObjects\AssetTokenDetail.class
+pageUIs\AssetTokenDetailUI.class
+commons\BaseTest.class
+commons\TestNGAppender.class
+pageObjects\HomePageObject.class
+pageUIs\CarbonCreditDetailUI.class
+pageUIs\HomePageUI.class
+commons\BasePage.class
+pageUIs\AssetTokenGridViewUI.class
+pageObjects\CarbonCreditGridView.class
+pageUIs\CarbonCreditGridViewUI.class

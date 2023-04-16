@@ -179,9 +179,9 @@
                 <version>2.22.2</version>
                 <configuration>
                     <!-- Run TestNG xml file -->
-                    <!-- <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/runNopcommerceTest.xml</suiteXmlFile>
-                    </suiteXmlFiles>-->
+                     <suiteXmlFiles>
+                        <suiteXmlFile>src\test\resources\run.xml</suiteXmlFile>
+                    </suiteXmlFiles>
 
                     <!-- Argument -->
                     <argLine>
